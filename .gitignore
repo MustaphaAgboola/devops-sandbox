@@ -1,0 +1,13 @@
+# Runtime state
+envs/
+logs/
+
+# Environment secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
