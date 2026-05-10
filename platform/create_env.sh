@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 NAME=$1
 ENV_ID=$(LC_ALL=C tr -dc 'a-z0-9' < /dev/urandom | head -c 8)
 CREATED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)

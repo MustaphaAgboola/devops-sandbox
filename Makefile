@@ -6,7 +6,7 @@ up:
 		-v $(PWD)/nginx/nginx.conf:/etc/nginx/nginx.conf \
 		-v $(PWD)/nginx/conf.d:/etc/nginx/conf.d \
 		nginx:alpine
-	nohup ./cleanup_daemon.sh > logs/cleanup.log 2>&1 &
+	nohup ./platform/cleanup_daemon.sh > logs/cleanup.log 2>&1 &
 	python3 platform/api.py > logs/api.log 2>&1 &
 
 down:

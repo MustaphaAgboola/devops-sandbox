@@ -1,1 +1,4 @@
-nohup: ./cleanup_daemon.sh: No such file or directory
+2026-05-10T13:56:02Z Outage simulation: crash on knqwkpyt
+2026-05-10T13:56:42Z Outage simulation: recover on knqwkpyt
+2026-05-10T14:01:53Z Outage simulation: crash on knqwkpyt
+2026-05-10T14:02:37Z Outage simulation: recover on knqwkpyt

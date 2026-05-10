@@ -13,7 +13,8 @@ rm nginx/conf.d/$ENV_ID.conf
 docker exec nginx nginx -s reload
 
 # Archive logs
-mv logs/$ENV_ID/ logs/archived/$ENV_ID/
+mkdir -p logs/archived
+mv logs/$ENV_ID/ logs/archived/$ENV_ID/ 2>/dev/null || true
 
 # Delete state file
 rm envs/$ENV_ID.json
