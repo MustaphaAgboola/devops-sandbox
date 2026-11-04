@@ -40,7 +40,7 @@ A self-service platform for spinning up isolated temporary environments with cha
 ## Quick Start
 
 ```bash
-git clone https://github.com/yourname/devops-sandbox
+git clone https://github.com/mustaphaagboola/devops-sandbox
 cd devops-sandbox
 cp .env.example .env
 mkdir -p envs logs/archived nginx/conf.d
